@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CFe>
+   <infCFe Id="CFe35190112875486000190590002449750346665260479" versao="0.07" versaoDadosEnt="0.07" versaoSB="020100">
+      <ide>
+         <cUF>35</cUF>
+         <cNF>526047</cNF>
+         <mod>59</mod>
+         <nserieSAT>000244975</nserieSAT>
+         <nCFe>034666</nCFe>
+         <dEmi>20190102</dEmi>
+         <hEmi>092522</hEmi>
+         <cDV>9</cDV>
+         <tpAmb>1</tpAmb>
+         <CNPJ>24151877000141</CNPJ>
+         <signAC>m/tzgx4yoF8ey7yLXgSO0YdpobZbo1IbgcntQyoA75QUTITQjMLmTwwjieEt5FyONXHglOmjo6VEecd59lNCTskN02uHb//qPH1OWbUiSjLIIAG0ufiBj1LbKtwQV0hS58rwoiFoCs4mi8kb1DH1V/kRE62BzGpvidjcqLM5oVMOOa2W/vgibkW6z5qBXWOrgSKuMe0A//uEKVM08k9dVMrqkxaXW2ew8KvfFzeW/qJeceRdM9Qk3BSDef5omFf533Y4PuvxP0SgUnmJacQY/N1CyTpYS4Dx25JvIc37hp85EwdJ/3q3PiYqiuLvFG36SAF7zN7KZemGl6LePJaYrw==</signAC>
+         <assinaturaQRCODE>nhG9R9iR12Yn3rHCoive3MRPzA9bPJiAiCELAXKXkzPMaPX/0r37Yv2KjX002+LuJuyj/BF8m+uaUoTRqGWac6DDalEDih4YiZzIUpQgYhfdaY9/PwkPnpgiC0cPYlB7uoiv1ezhkv+5YuSEq5GZ2FYqvT9FGQsk6qFB2k8+QmuE35DrgP3QTH/DQteeoIMr/kpOAVvVc/psfgmSL37/3iX9JNnaFPMrr7kMee4kW/IVBd6zUrMnLeoNkPlxKROzHp8qrSK1AVcFIyL3LrhdvTdiq12UZsQoICuuritmnxpJXfaKwC98I7EHB4qfU/mE71272iTRZVudpcjXVELT7A==</assinaturaQRCODE>
+         <numeroCaixa>005</numeroCaixa>
+      </ide>
+      <emit>
+         <CNPJ>12875486000190</CNPJ>
+         <xNome>M P DORIA VESTUARIO LTDA</xNome>
+         <xFant>DEPOSITO DA LINGERIE</xFant>
+         <enderEmit>
+            <xLgr>AVENIDA MATEO BEI</xLgr>
+            <nro>3274</nro>
+            <xCpl>Nao Informado</xCpl>
+            <xBairro>SAO MATEUS</xBairro>
+            <xMun>SAO PAULO</xMun>
+            <CEP>03949300</CEP>
+         </enderEmit>
+         <IE>147649592110</IE>
+         <cRegTrib>1</cRegTrib>
+         <indRatISSQN>S</indRatISSQN>
+      </emit>
+      <dest>
+         <CPF />
+      </dest>
+      <det nItem="1">
+         <prod>
+            <cProd>125403</cProd>
+            <xProd>CALC 020 LN - G - Nenhuma</xProd>
+            <NCM>60062400</NCM>
+            <CFOP>5102</CFOP>
+            <uCom>UN</uCom>
+            <qCom>1.0000</qCom>
+            <vUnCom>7.99</vUnCom>
+            <vProd>7.99</vProd>
+            <indRegra>A</indRegra>
+            <vItem>7.99</vItem>
+         </prod>
+         <imposto>
+            <vItem12741>2.46</vItem12741>
+            <ICMS>
+               <ICMSSN102>
+                  <Orig>0</Orig>
+                  <CSOSN>102</CSOSN>
+               </ICMSSN102>
+            </ICMS>
+            <PIS>
+               <PISSN>
+                  <CST>49</CST>
+               </PISSN>
+            </PIS>
+            <COFINS>
+               <COFINSSN>
+                  <CST>49</CST>
+               </COFINSSN>
+            </COFINS>
+         </imposto>
+      </det>
+      <det nItem="2">
+         <prod>
+            <cProd>125402</cProd>
+            <xProd>CALC 020 LN - M - Nenhuma</xProd>
+            <NCM>60062400</NCM>
+            <CFOP>5102</CFOP>
+            <uCom>UN</uCom>
+            <qCom>1.0000</qCom>
+            <vUnCom>7.99</vUnCom>
+            <vProd>7.99</vProd>
+            <indRegra>A</indRegra>
+            <vItem>7.99</vItem>
+         </prod>
+         <imposto>
+            <vItem12741>2.46</vItem12741>
+            <ICMS>
+               <ICMSSN102>
+                  <Orig>0</Orig>
+                  <CSOSN>102</CSOSN>
+               </ICMSSN102>
+            </ICMS>
+            <PIS>
+               <PISSN>
+                  <CST>49</CST>
+               </PISSN>
+            </PIS>
+            <COFINS>
+               <COFINSSN>
+                  <CST>49</CST>
+               </COFINSSN>
+            </COFINS>
+         </imposto>
+      </det>
+      <det nItem="3">
+         <prod>
+            <cProd>125397</cProd>
+            <xProd>CALC 018 LN - M - Nenhuma</xProd>
+            <NCM>61082200</NCM>
+            <CFOP>5102</CFOP>
+            <uCom>UN</uCom>
+            <qCom>1.0000</qCom>
+            <vUnCom>7.99</vUnCom>
+            <vProd>7.99</vProd>
+            <indRegra>A</indRegra>
+            <vItem>7.99</vItem>
+         </prod>
+         <imposto>
+            <vItem12741>2.46</vItem12741>
+            <ICMS>
+               <ICMSSN102>
+                  <Orig>0</Orig>
+                  <CSOSN>102</CSOSN>
+               </ICMSSN102>
+            </ICMS>
+            <PIS>
+               <PISSN>
+                  <CST>49</CST>
+               </PISSN>
+            </PIS>
+            <COFINS>
+               <COFINSSN>
+                  <CST>49</CST>
+               </COFINSSN>
+            </COFINS>
+         </imposto>
+      </det>
+      <det nItem="4">
+         <prod>
+            <cProd>125397</cProd>
+            <xProd>CALC 018 LN - M - Nenhuma</xProd>
+            <NCM>61082200</NCM>
+            <CFOP>5102</CFOP>
+            <uCom>UN</uCom>
+            <qCom>1.0000</qCom>
+            <vUnCom>7.99</vUnCom>
+            <vProd>7.99</vProd>
+            <indRegra>A</indRegra>
+            <vItem>7.99</vItem>
+         </prod>
+         <imposto>
+            <vItem12741>2.46</vItem12741>
+            <ICMS>
+               <ICMSSN102>
+                  <Orig>0</Orig>
+                  <CSOSN>102</CSOSN>
+               </ICMSSN102>
+            </ICMS>
+            <PIS>
+               <PISSN>
+                  <CST>49</CST>
+               </PISSN>
+            </PIS>
+            <COFINS>
+               <COFINSSN>
+                  <CST>49</CST>
+               </COFINSSN>
+            </COFINS>
+         </imposto>
+      </det>
+      <det nItem="5">
+         <prod>
+            <cProd>100749</cProd>
+            <xProd>CO GEL BISNAG HF - HC250U/DELIRIUM - Nenhuma</xProd>
+            <NCM>33049910</NCM>
+            <CFOP>5102</CFOP>
+            <uCom>UN</uCom>
+            <qCom>1.0000</qCom>
+            <vUnCom>14.99</vUnCom>
+            <vProd>14.99</vProd>
+            <indRegra>A</indRegra>
+            <vItem>14.99</vItem>
+         </prod>
+         <imposto>
+            <vItem12741>4.61</vItem12741>
+            <ICMS>
+               <ICMSSN102>
+                  <Orig>0</Orig>
+                  <CSOSN>102</CSOSN>
+               </ICMSSN102>
+            </ICMS>
+            <PIS>
+               <PISSN>
+                  <CST>49</CST>
+               </PISSN>
+            </PIS>
+            <COFINS>
+               <COFINSSN>
+                  <CST>49</CST>
+               </COFINSSN>
+            </COFINS>
+         </imposto>
+      </det>
+      <total>
+         <ICMSTot>
+            <vICMS>0.00</vICMS>
+            <vProd>46.95</vProd>
+            <vDesc>0.00</vDesc>
+            <vPIS>0.00</vPIS>
+            <vCOFINS>0.00</vCOFINS>
+            <vPISST>0.00</vPISST>
+            <vCOFINSST>0.00</vCOFINSST>
+            <vOutro>0.00</vOutro>
+         </ICMSTot>
+         <vCFe>46.95</vCFe>
+         <vCFeLei12741>14.45</vCFeLei12741>
+      </total>
+      <pgto>
+         <MP>
+            <cMP>03</cMP>
+            <vMP>46.95</vMP>
+         </MP>
+         <vTroco>0.00</vTroco>
+      </pgto>
+      <infAdic>
+         <infCpl>;VENDEDOR: Suzana da Silva Ferreira;OBRIGADO!! VOLTE SEMPRE!!;CuboPDV by TMontec   -  www.tmontec.com.br   ;</infCpl>
+         <obsFisco xCampo="04.04.05.04">
+            <xTexto>Comete crime quem sonega</xTexto>
+         </obsFisco>
+      </infAdic>
+   </infCFe>
+   <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+         <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+         <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+         <Reference URI="#CFe35190112875486000190590002449750346665260479">
+            <Transforms>
+               <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+               <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>VOzRVoy1228wlmUHj65PjWPUmE/3CFHT54tt1NWoluc=</DigestValue>
+         </Reference>
+      </SignedInfo>
+      <SignatureValue>SqaA2r+6nV4RRzeGm70439wsoFXvTnZ95lGOVzVio+Hje8HKTrer6NUajAGAgq5cgUPcAxZF/yWYQ4dmQSEwPfFlMMLO2Cwne95bmxemrProj4Vzz+9wfLWIiWJSuggH8MpNgiIKJchmTu0FGLF8WE5dNOsY+CVn9AyiCaYnsPYct4oDz+9vYClI+DUGtPKV8cvf30i45CnXBwfs5mILL0UXNQ2xtTj6gSNmQCN1o3iZA86MCFAyn/00iIrikA7mwOhZFxcqaji7hBB9Wn0vH+asn/ou9wkG5IGq56WObtnXjOKAZHNLYlhjayVWgRzYADFJnQV0i8SxjFCnEwd2Og==</SignatureValue>
+      <KeyInfo>
+         <X509Data>
+            <X509Certificate>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</X509Certificate>
+         </X509Data>
+      </KeyInfo>
+   </Signature>
+</CFe>
