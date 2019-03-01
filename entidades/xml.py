@@ -1,10 +1,11 @@
 class XML():
 
-    def __init__(self, cod_xml, valor, data, cnpj):
-        self.__cod_xml = cod_xml
-        self.__valor   = valor
-        self.__data    = data
-        self.__cnpj    = cnpj
+    def __init__(self, cod_xml, valor, data, cnpj, nome_fantasia):
+        self.__cod_xml        = cod_xml
+        self.__valor          = valor
+        self.__data           = data
+        self.__cnpj           = cnpj
+        self.__nome_fantasia  = nome_fantasia
 
 
     @property
@@ -23,6 +24,10 @@ class XML():
     def cnpj(self):
         return self.__cnpj
 
+    @property
+    def nome_fantasia(self):
+        return self.__nome_fantasia
+
     @cod_xml.setter
     def cod_xml(self, cod_xml):
         self.__cod_xml = cod_xml
@@ -38,3 +43,7 @@ class XML():
     @cnpj.setter
     def cnpj(self, cnpj):
         self.__cnpj = cnpj
+
+    @nome_fantasia.setter
+    def nome_fantasia(self, nome_fantasia):
+        self.__nome_fantasia = nome_fantasia

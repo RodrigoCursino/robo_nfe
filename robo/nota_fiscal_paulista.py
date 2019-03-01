@@ -18,6 +18,8 @@ class NotaFiscalPaulista():
     chorome_options.add_argument("--headless")
     driver = webdriver.Chrome(ChromeDriverManager().install())
 
+    #driver = webdriver.Firefox()
+
     def __init__(self, cpf, password):
         self.__cpf      = cpf
         self.__password = password

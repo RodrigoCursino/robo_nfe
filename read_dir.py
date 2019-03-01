@@ -1,6 +1,10 @@
 import os
+import read_xml
+from repositorio.xml_repositorio import XmlRepositorio
 
 files = os.listdir('./data')
 
 for file in files:
-    print(file)
+    read  = read_xml.ReadXmls(file)
+    read.setFile()
+

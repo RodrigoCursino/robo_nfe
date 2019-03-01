@@ -1,0 +1,70 @@
+id 35190112875486000190590002449750360481714472
+
+PAI ide valor None
+    FILHO: cUF : Valor 35
+    FILHO: cNF : Valor 171447
+    FILHO: mod : Valor 59
+    FILHO: nserieSAT : Valor 000244975
+    FILHO: nCFe : Valor 036048
+    FILHO: dEmi : Valor 20190126
+    FILHO: hEmi : Valor 163032
+    FILHO: cDV : Valor 2
+    FILHO: tpAmb : Valor 1
+    FILHO: CNPJ : Valor 24151877000141
+    FILHO: signAC : Valor m/tzgx4yoF8ey7yLXgSO0YdpobZbo1IbgcntQyoA75QUTITQjMLmTwwjieEt5FyONXHglOmjo6VEecd59lNCTskN02uHb//qPH1OWbUiSjLIIAG0ufiBj1LbKtwQV0hS58rwoiFoCs4mi8kb1DH1V/kRE62BzGpvidjcqLM5oVMOOa2W/vgibkW6z5qBXWOrgSKuMe0A//uEKVM08k9dVMrqkxaXW2ew8KvfFzeW/qJeceRdM9Qk3BSDef5omFf533Y4PuvxP0SgUnmJacQY/N1CyTpYS4Dx25JvIc37hp85EwdJ/3q3PiYqiuLvFG36SAF7zN7KZemGl6LePJaYrw==
+    FILHO: assinaturaQRCODE : Valor VsAd/DsIIT/2KwUyQ4WeLiwQ5BQ4uBsvsRoo9b4p/KNqujyJArJaF0GI3pvV5bPKYfP4Ml2gprXOig9FUdW34tOaztLbDNvHVQzXa4yqmoPBkWhz9RYy9+MQgLwxt9Ke//hN7vs+iXqikEKs7KtxyaAnyYPzd7W+Sy92QRH6y4AoqHJPuSlGaRcTPbng3zvqX5x0W7tDqshZB85gzNwE3bep9jlGPKnuawmiDKy/RpbuiP4Ii1lgSstfWy3o0RAyK23Z7RoXGX9FcUEuJQ1/McWPvQxySZR5Nf0kzzBz02jVoW01D+2KR0yYFzPUuzmcqr+9uFkoKRAe+XjC8O4nLg==
+    FILHO: numeroCaixa : Valor 005
+PAI emit valor None
+    FILHO: CNPJ : Valor 12875486000190
+    FILHO: xNome : Valor M P DORIA VESTUARIO LTDA
+    FILHO: xFant : Valor DEPOSITO DA LINGERIE
+    FILHO: enderEmit : Valor None
+        NETO: xLgr = Valor AVENIDA MATEO BEI
+        NETO: nro = Valor 3274
+        NETO: xCpl = Valor Nao Informado
+        NETO: xBairro = Valor SAO MATEUS
+        NETO: xMun = Valor SAO PAULO
+        NETO: CEP = Valor 03949300
+    FILHO: IE : Valor 147649592110
+    FILHO: cRegTrib : Valor 1
+    FILHO: indRatISSQN : Valor S
+PAI dest valor None
+    FILHO: CPF : Valor None
+PAI det valor None
+    FILHO: prod : Valor None
+        NETO: cProd = Valor 6114
+        NETO: xProd = Valor SU 2000 MODEL. MY - M - Nenhuma
+        NETO: NCM = Valor 62122000
+        NETO: CFOP = Valor 5102
+        NETO: uCom = Valor UN
+        NETO: qCom = Valor 1.0000
+        NETO: vUnCom = Valor 94.99
+        NETO: vProd = Valor 94.99
+        NETO: indRegra = Valor A
+        NETO: vItem = Valor 94.99
+    FILHO: imposto : Valor None
+        NETO: vItem12741 = Valor 29.21
+        NETO: ICMS = Valor None
+        NETO: PIS = Valor None
+        NETO: COFINS = Valor None
+PAI total valor None
+    FILHO: ICMSTot : Valor None
+        NETO: vICMS = Valor 0.00
+        NETO: vProd = Valor 94.99
+        NETO: vDesc = Valor 0.00
+        NETO: vPIS = Valor 0.00
+        NETO: vCOFINS = Valor 0.00
+        NETO: vPISST = Valor 0.00
+        NETO: vCOFINSST = Valor 0.00
+        NETO: vOutro = Valor 0.00
+    FILHO: vCFe : Valor 94.99
+    FILHO: vCFeLei12741 : Valor 29.21
+PAI pgto valor None
+    FILHO: MP : Valor None
+        NETO: cMP = Valor 03
+        NETO: vMP = Valor 94.99
+    FILHO: vTroco : Valor 0.00
+PAI infAdic valor None
+    FILHO: infCpl : Valor ;VENDEDOR: Jaqueline de Lira P Silva lj 05;OBRIGADO!! VOLTE SEMPRE!!;CuboPDV by TMontec   -  www.tmontec.com.br   ;
+    FILHO: obsFisco : Valor None
+        NETO: xTexto = Valor Comete crime quem sonega
