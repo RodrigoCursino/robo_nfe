@@ -56,7 +56,7 @@ class NotaFiscalPaulista():
         self.driver.find_element_by_xpath( "//select[@name='ctl00$ConteudoPagina$ddlEntidadeFilantropica']/option[text()='" + self.entidade_teste + "']").click()
         self.driver.find_element_by_xpath("//select[@name='ctl00$ConteudoPagina$ddlMes']/option[text()='" + self.mes_teste + "']").click()
         self.driver.find_element_by_id("ctl00_ConteudoPagina_btnNovaNota").click()
-        time.sleep(1)
+        time.sleep(3)
 
     def salvarCupom (self, cupom):
         self.driver.find_element_by_tag_name('body').send_keys(Keys.ESCAPE)
