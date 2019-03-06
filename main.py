@@ -1,8 +1,17 @@
 from robo.nota_fiscal_paulista import NotaFiscalPaulista
-from read_xml import ReadXmls
+from repositorio import pessoa_repositorio
+from servicos import read_dir
+import sys
 
-id   = ReadXmls('teste.xml')
-robo = NotaFiscalPaulista('21242425802','050579')
+#nome = sys.argv[1]
+nome = 'tony'
+user = pessoa_repositorio.PessoaRepositorio.retunPessoa(nome)
+read = read_dir.ReadDirectory('data')
+
+listagem_xml = read.read()
+
+robo = NotaFiscalPaulista(user.cpf,user.senha)
 robo.login()
-robo.salvarCupom('35190224684575000309590004165900147942795151')
-# robo.close()
+for lista in listagem_xml:
+    robo.salvarCupom(lista.cod_xml)
+robo.close()

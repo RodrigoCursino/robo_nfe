@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 
 class NotaFiscalPaulista():
@@ -18,7 +19,7 @@ class NotaFiscalPaulista():
     chorome_options.add_argument("--headless")
     driver = webdriver.Chrome(ChromeDriverManager().install())
 
-    #driver = webdriver.Firefox()
+    # driver = webdriver.Firefox()
 
     def __init__(self, cpf, password):
         self.__cpf      = cpf
@@ -30,7 +31,7 @@ class NotaFiscalPaulista():
 
     def login(self):
         self.driver.get(self.URL_LOGIN)
-        time.sleep(3)
+        time.sleep(2)
 
         #set CPF
         self.driver.find_element_by_id('UserName').send_keys(self.__cpf)
@@ -59,7 +60,7 @@ class NotaFiscalPaulista():
 
     def salvarCupom (self, cupom):
         self.driver.find_element_by_tag_name('body').send_keys(Keys.ESCAPE)
-        time.sleep(1)
+        time.sleep(2)
         self.driver.find_element_by_xpath("//input[@title='Digite ou Utilize um leitor de código de barras ou QRCode']").send_keys(Keys.HOME, cupom)
         self.driver.find_element_by_id('btnSalvarNota').click()
 

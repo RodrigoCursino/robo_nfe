@@ -5,20 +5,19 @@ from repositorio.xml_repositorio import XmlRepositorio
 
 class ReadXmls():
 
-    xml_list = []
     root     = ""
 
     def __init__(self, file):
         self.__file = file
 
-    def setFile(self):
+    def loadFiles(self):
         full_file = os.path.abspath(os.path.join('data', self.__file))
         tree      = ET.parse(full_file)
         self.root      = tree.getroot()
-        self.buscarId()
+        return self.load()
 
 
-    def buscarId(self):
+    def load(self):
 
         for child in self.root:
           if (child.tag == "infCFe"):
@@ -44,14 +43,9 @@ class ReadXmls():
                       if pai.tag == 'total' and filho.tag == 'vCFe':
                           valor = float(filho.text)
 
-                          print(f"FILHO: {filho.tag} : Valor {filho.text}")
-                      for neto in filho:
-                          print(f"NETO: {neto.tag} = Valor {neto.text}")
 
 
         if cpf != None:
-            if XmlRepositorio.select_xml_by_cod(xml_id):
-                xml = XML(xml_id, valor, data, cnpj, nome_fantasia)
-                XmlRepositorio.inserir(xml)
-
-
+            #if XmlRepositorio.select_xml_by_cod(xml_id):
+                return XML(xml_id, valor, data, cnpj, nome_fantasia)
+                #XmlRepositorio.inserir(xml)
